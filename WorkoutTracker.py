@@ -147,6 +147,7 @@ def user_profile(username):
 
         print("\n\n[1] Update Info")
         print("[2] Historical Info")
+        print("[3] Go to FAQ Page")
         print("[0] Back to Homepage")
 
         selection = input("Choose an option: ")
@@ -155,6 +156,8 @@ def user_profile(username):
             update_info(username)
         elif selection == "2":
             historical_info(username)
+        elif selection == "3":
+            faq()
         elif selection == "0":
             print("\nReturning to Homepage")
             break
@@ -257,6 +260,7 @@ def historical_info(username):
 
         print("\n\n[1] Previous Entry")
         print("[2] Next Entry")
+        print("[3] All Entries")
         print("[0] Return to User Profile")
 
         selection = input("Choose an option: ")
@@ -272,6 +276,18 @@ def historical_info(username):
                 index += 1
             else:
                 print("\nNo further entries")
+
+        elif selection == "3":
+            for i, entry in enumerate(history):
+                print(f"\n==========Entry {i + 1}==========")
+                print(f"Date: {entry['date']}")
+
+                all_values = entry["entries"]
+                print(f"\nAge: {all_values['age'] or 'Not set'}")
+                print(f"\nHeight: {all_values['height'] or 'Not set'}")
+                print(f"\nWeight: {all_values['weight'] or 'Not set'}")
+                print(f"\nRun Goal: {all_values['run goal'] or 'Not set'}")
+                print(f"\nStrength Goal: {all_values['strength goal'] or 'Not set'}")
 
         elif selection == "0":
             print("\nReturning to User Profile")
@@ -293,10 +309,9 @@ def faq():
         print("3. The update info page lets you update your metrics and fitness goals.")
         print("4. The historical info page lets you see all your previous entries.")
 
-        print("\n[0] Return to the Homepage")
+        print("\n[0] Return to the Previous Screen")
         selection = input("Choose an option: ")
         if selection == "0":
-            print("\nReturning to Homepage")
             break
         else:
             print("Invalid option, try again")

@@ -51,6 +51,39 @@
                     "date": "2026-11-11"
                 }
             ]
+        },
+        "cat": {
+            "name": "bob",
+            "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+            "recovery_word": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "run goal": "",
+            "strength goal": "",
+            "history": []
+        },
+        "cat1": {
+            "name": "bob",
+            "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+            "recovery_word": "cd6357efdd966de8c0cb2f876cc89ec74ce35f0968e11743987084bd42fb8944",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "run goal": "",
+            "strength goal": "",
+            "history": []
+        },
+        "bird": {
+            "name": "bobby",
+            "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+            "recovery_word": "7a5179eecc0fe18760ba615f92603372ae3fe302860098a019e15927551fee3b",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "run goal": "",
+            "strength goal": "",
+            "history": []
         }
     }
 }
