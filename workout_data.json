@@ -1,0 +1,56 @@
+{
+    "users": {
+        "dog1": {
+            "name": "Matt Silverstein",
+            "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+            "recovery_word": "cd6357efdd966de8c0cb2f876cc89ec74ce35f0968e11743987084bd42fb8944",
+            "age": "55",
+            "height": "66",
+            "weight": "66",
+            "run goal": "77",
+            "strength goal": "mega strong",
+            "history": [
+                {
+                    "entries": {
+                        "age": "13",
+                        "height": "12",
+                        "weight": "13",
+                        "run goal": "13",
+                        "strength goal": "13"
+                    },
+                    "date": "2026-11-11"
+                },
+                {
+                    "entries": {
+                        "age": "13",
+                        "height": "14",
+                        "weight": "14",
+                        "run goal": "14",
+                        "strength goal": "14"
+                    },
+                    "date": "2026-11-11"
+                },
+                {
+                    "entries": {
+                        "age": "16",
+                        "height": "12",
+                        "weight": "13",
+                        "run goal": "13",
+                        "strength goal": "13"
+                    },
+                    "date": "2026-11-11"
+                },
+                {
+                    "entries": {
+                        "age": "55",
+                        "height": "55",
+                        "weight": "55",
+                        "run goal": "55",
+                        "strength goal": "strong"
+                    },
+                    "date": "2026-11-11"
+                }
+            ]
+        }
+    }
+}
